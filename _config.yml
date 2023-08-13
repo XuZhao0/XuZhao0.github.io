@@ -79,11 +79,12 @@ analytics:
 # Site Author
 author:
   name: "Xu Zhao"
-  avatar: "profile.jpg"
+  name2: "赵旭"
+  avatar: "profile.png"
   bio: "Master student at NUS SoC"
   location: "Singapore"
   employer:
-  pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed:
   googlescholar: "https://scholar.google.ca/citations?user=Ybcwc2IAAAAJ&hl=en"
   email: xu.zhao@u.nus.edu
   researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
