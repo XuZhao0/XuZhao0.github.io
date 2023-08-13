@@ -16,15 +16,15 @@ I am interested in NLP, particularly topics related to Large Language Models. Cu
 I always welcome collaborations and discussions about these topics. If you're interested, please do not hesitate to reach out to discuss more😃
 
 ## Preprints
-**Automatic Model Selection with Large Language Models for Reasoning**
+**Automatic Model Selection with Large Language Models for Reasoning**\
 *Xu Zhao*, Yuxi Xie, Kenji Kawaguchi, Junxian He, Qizhe Xie
 [[arxiv]](https://arxiv.org/pdf/2305.14333.pdf)
 
-**CodeInstruct: Empowering Language Models to Edit Code**
+**CodeInstruct: Empowering Language Models to Edit Code**\
 Qisheng Hu\*, Kaixin Li\*, *Xu Zhao*, Yuxi Xie, Tiedong Liu, Hui Chen, Qizhe Xie, Junxian He
 [[paper]](https://github.com/qishenghu/CodeInstruct/blob/main/CodeInstruct.pdf)
 
-**Decomposition Enhances Reasoning via Self-Evaluation Guided Decoding**
+**Decomposition Enhances Reasoning via Self-Evaluation Guided Decoding**\
 Yuxi Xie, Kenji Kawaguchi, Yiran Zhao, *Xu Zhao*, Min-Yen Kan, Junxian He, Qizhe Xie
 [[arxiv]](https://arxiv.org/pdf/2305.00633.pdf)
 
