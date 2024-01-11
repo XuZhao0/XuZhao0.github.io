@@ -9,22 +9,15 @@ redirect_from:
 ---
 
 
-👋 I am a Master student (2022 - present) of [School of Computing](https://www.comp.nus.edu.sg) at [National University of Singapore](https://nus.edu.sg) advised by [Prof. Michael Qizhe Xie](https://www.michaelxie.com). Before that, I obtained my bachelor degree from University of Electronic Science and Technology of China in 2022.
+👋 I am James Zhao, a first year PhD student of [School of Computing](https://www.comp.nus.edu.sg) at [National University of Singapore](https://nus.edu.sg). Before that, I obtained master degree from NUS, advised by [Prof. Michael Shieh](https://michaelshieh.com) and bachelor degree from University of Electronic Science and Technology of China.
 
-I am interested in NLP, particularly topics related to Large Language Models. Currently, I am passionate about enhancing the reasoning capabilities of these models. My aspiration is to develop effiecient and faithful reasoning methods. Besides, I am also interested in the evaluation of LLMs to judge their helpfulness, honest, harmless. 
+I am interested in NLP, particularly topics related to Large Language Models. Currently, I am passionate about enhancing the reasoning capabilities of these models. I always welcome collaborations and discussions about these topics. If you're interested, please do not hesitate to reach out to discuss more 😃
 
-I always welcome collaborations and discussions about these topics. If you're interested, please do not hesitate to reach out to discuss more 😃
+## Publications
+**Automatic Model Selection with Large Language Models for Reasoning** `EMNLP2023 Findings`\
+*James Xu Zhao*, Yuxi Xie, Kenji Kawaguchi, Junxian He, Qizhe Xie\
+[[paper]](https://aclanthology.org/2023.findings-emnlp.55.pdf) [[code]](https://github.com/XuZhao0/Model-Selection-Reasoning)
 
-## Preprints
-**Automatic Model Selection with Large Language Models for Reasoning**\
-*Xu Zhao*, Yuxi Xie, Kenji Kawaguchi, Junxian He, Qizhe Xie\
-[[arxiv]](https://arxiv.org/pdf/2305.14333.pdf)
-
-**CodeInstruct: Empowering Language Models to Edit Code**\
-Qisheng Hu\*, Kaixin Li\*, *Xu Zhao*, Yuxi Xie, Tiedong Liu, Hui Chen, Qizhe Xie, Junxian He\
-[[paper]](https://github.com/qishenghu/CodeInstruct/blob/main/CodeInstruct.pdf)
-
-**Decomposition Enhances Reasoning via Self-Evaluation Guided Decoding**\
-Yuxi Xie, Kenji Kawaguchi, Yiran Zhao, *Xu Zhao*, Min-Yen Kan, Junxian He, Qizhe Xie\
-[[arxiv]](https://arxiv.org/pdf/2305.00633.pdf)
-
+**Self-Evaluation Guided Beam Search for Reasoning** `NeurIPS 2023`\
+Yuxi Xie, Kenji Kawaguchi, Yiran Zhao, *James Xu Zhao*, Min-Yen Kan, Junxian He, Qizhe Xie\
+[[paper]](https://arxiv.org/pdf/2305.00633.pdf) [[code]](https://github.com/YuxiXie/SelfEval-Guided-Decoding)

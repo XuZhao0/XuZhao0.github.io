@@ -7,9 +7,9 @@
 
 # Site Settings
 locale: "en-US"
-title: "Xu Zhao"
+title: "James Xu Zhao"
 title_separator: "-"
-name: &name "Xu Zhao"
+name: &name "James Xu Zhao"
 description: &description "personal description"
 url: https://xuzhao0.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
@@ -78,10 +78,10 @@ analytics:
 
 # Site Author
 author:
-  name: "Xu Zhao"
+  name: "James Xu Zhao"
   name2: "赵旭"
   avatar: "profile.png"
-  bio: "Master student at NUS SoC"
+  bio: "PhD student at NUS SoC"
   location: "Singapore"
   employer:
   pubmed:
