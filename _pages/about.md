@@ -9,7 +9,7 @@ redirect_from:
 ---
 👋 I am James Zhao, a first year PhD student of [School of Computing](https://www.comp.nus.edu.sg) at [National University of Singapore](https://nus.edu.sg). Before that, I obtained master degree from NUS, advised by [Prof. Michael Shieh](https://michaelshieh.com) and bachelor degree from University of Electronic Science and Technology of China.
 
-I am generally interested in Large Foundation Models. Recently, I am particularly interested in trustworthy and reasoning. I always welcome collaborations and discussions about these topics. If you're interested, please do not hesitate to reach out to discuss more 😃
+I am generally interested in Large Foundation Models. Recently, I am interested in trustworthiness and reasoning. I always welcome collaborations and discussions about these topics. If you're interested, please do not hesitate to reach out to discuss more 😃
 
 ## Publications
 
