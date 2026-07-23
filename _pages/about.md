@@ -7,11 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-👋 I am James Zhao, a second year PhD candidate of [School of Computing](https://www.comp.nus.edu.sg) at [National University of Singapore](https://nus.edu.sg). I am co-advised by [Prof. Bryan Hooi](https://bhooi.github.io) and [Prof. See-Kiong Ng](https://www.comp.nus.edu.sg/~ngsk/). Before that, I obtained master's degree and bachelor's degree from NUS and UESTC respectively.
+👋 I am James Zhao, a third year PhD candidate of [School of Computing](https://www.comp.nus.edu.sg) at [National University of Singapore](https://nus.edu.sg). I am co-advised by [Prof. Bryan Hooi](https://bhooi.github.io) and [Prof. See-Kiong Ng](https://www.comp.nus.edu.sg/~ngsk/). Before that, I obtained master's degree and bachelor's degree from NUS and UESTC respectively.
 
-I am interested in trustworthiness and LLM reasoning. I always welcome collaborations and discussions about these topics. If you're interested, please do not hesitate to reach out to discuss more 😃
+Recently, I am interested in test-time scaling and agentic search. I always welcome collaborations and discussions about these topics. If you're interested, feel free to reach out! 😃
 
 ## Selected Publications
+
+**Test-Time Scaling in Reasoning Models Is Not Effective for Knowledge-Intensive Tasks Yet** `COLM 2026`
+*James Xu Zhao*, Bryan Hooi, See-Kiong Ng
+[[paper]](https://arxiv.org/pdf/2509.06861) [[code]](https://github.com/XuZhao0/tts-knowledge)
 
 **How Does Response Length Affect Long-Form Factuality** `ACL 2025 Findings`
 *James Xu Zhao*, Jimmy Z.J. Liu, Bryan Hooi, See-Kiong Ng
