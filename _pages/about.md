@@ -14,13 +14,19 @@ Recently, I am interested in test-time scaling and agentic search. I always welc
 ## Selected Publications
 
 **Test-Time Scaling in Reasoning Models Is Not Effective for Knowledge-Intensive Tasks Yet** `COLM 2026`
+
 *James Xu Zhao*, Bryan Hooi, See-Kiong Ng
+
 [[paper]](https://arxiv.org/pdf/2509.06861) [[code]](https://github.com/XuZhao0/tts-knowledge)
 
 **How Does Response Length Affect Long-Form Factuality** `ACL 2025 Findings`
+
 *James Xu Zhao*, Jimmy Z.J. Liu, Bryan Hooi, See-Kiong Ng
+
 [[paper]](https://arxiv.org/pdf/2505.23295) [[code]](https://github.com/XuZhao0/length-bias-factuality)
 
 **Automatic Model Selection with Large Language Models for Reasoning** `EMNLP2023 Findings`
+
 *James Xu Zhao*, Yuxi Xie, Kenji Kawaguchi, Junxian He, Qizhe Xie
+
 [[paper]](https://aclanthology.org/2023.findings-emnlp.55.pdf) [[code]](https://github.com/XuZhao0/Model-Selection-Reasoning)
