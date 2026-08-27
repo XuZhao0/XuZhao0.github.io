@@ -13,6 +13,12 @@ Recently, I am interested in test-time scaling and agentic search. I always welc
 
 ## Selected Publications
 
+**FineVerify: Scaling Test-Time Compute with Fine-Grained Self-Verification for Agentic Search** `EMNLP 2026`
+
+*James Xu Zhao*, Hui Chen, Bryan Hooi, See-Kiong Ng
+
+[[paper]](https://arxiv.org/pdf/2606.00660) [[code]](https://github.com/XuZhao0/fineverify)
+
 **Test-Time Scaling in Reasoning Models Is Not Effective for Knowledge-Intensive Tasks Yet** `COLM 2026`
 
 *James Xu Zhao*, Bryan Hooi, See-Kiong Ng
