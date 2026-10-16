@@ -1,0 +1,39 @@
+{% include base_path %}
+{%- assign me = site.author.name | default: site.name -%}
+{%- assign me_html = '<span class="pub__me">' | append: me | append: '</span>' -%}
+<div class="pubs">
+{%- for pub in site.data.publications %}
+<article class="pub{% unless pub.image %} pub--no-image{% endunless %}">
+  <div class="pub__media">
+    {%- if pub.image %}
+    <img src="{{ base_path }}/{{ pub.image }}" alt="{{ pub.title | escape }}" loading="lazy">
+    {%- else %}
+    <span class="pub__venue">{{ pub.venue }}</span>
+    {%- endif %}
+  </div>
+  <div class="pub__body">
+    <h3 class="pub__title">{{ pub.title }}</h3>
+    <p class="pub__authors">{{ pub.authors | replace: me, me_html }}</p>
+    <div class="pub__links">
+      {%- if pub.image %}
+      <span class="pub__venue">{{ pub.venue }}</span>
+      {%- endif %}
+      {%- for link in pub.links %}
+      {%- assign key = link.name | downcase -%}
+      {%- case key -%}
+        {%- when "paper", "pdf", "arxiv" -%}{%- assign icon = "fas fa-file-pdf" -%}
+        {%- when "code", "github" -%}{%- assign icon = "fab fa-github" -%}
+        {%- when "project", "website" -%}{%- assign icon = "fas fa-globe" -%}
+        {%- when "slides" -%}{%- assign icon = "fas fa-chalkboard-teacher" -%}
+        {%- when "poster" -%}{%- assign icon = "fas fa-image" -%}
+        {%- when "video" -%}{%- assign icon = "fab fa-youtube" -%}
+        {%- when "data", "dataset" -%}{%- assign icon = "fas fa-database" -%}
+        {%- else -%}{%- assign icon = "fas fa-link" -%}
+      {%- endcase %}
+      <a class="pub__chip" href="{{ link.url }}"><i class="{{ link.icon | default: icon }}" aria-hidden="true"></i>{{ link.name }}</a>
+      {%- endfor %}
+    </div>
+  </div>
+</article>
+{%- endfor %}
+</div>

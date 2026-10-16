@@ -1,0 +1,128 @@
+/* ==========================================================================
+   Selected publications (homepage)
+   ========================================================================== */
+
+$pub-accent        : $link-color;
+$pub-badge-width   : 8.5em;
+$pub-teaser-width  : 13em;
+
+.pub {
+  padding: 1em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:first-child {
+    padding-top: 0.25em;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  @include breakpoint($medium) {
+    display: grid;
+    grid-template-columns: $pub-teaser-width minmax(0, 1fr);
+    column-gap: 1.25em;
+    align-items: start;
+
+    &--no-image {
+      grid-template-columns: $pub-badge-width minmax(0, 1fr);
+    }
+  }
+}
+
+.pub__media {
+  position: relative;
+  margin-bottom: 0.5em;
+
+  @include breakpoint($medium) {
+    margin-bottom: 0;
+  }
+
+  /* contain, not cover: teasers are usually figures, so never crop them */
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+  }
+}
+
+.pub__venue {
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  border-radius: $border-radius;
+  background: mix(#fff, $pub-accent, 85%);
+  color: mix(#000, $pub-accent, 40%);
+  font-size: $type-size-6;
+  font-weight: bold;
+  line-height: 1.35;
+  text-align: center;
+
+  @include breakpoint($medium) {
+    .pub--no-image & {
+      display: block;
+      margin-top: 0.15em;
+    }
+  }
+
+  /* in the link row: match the chips' height */
+  .pub__links & {
+    margin-right: 0.3em;
+    padding: 0.2em 0.6em;
+    border: 1px solid transparent;
+    line-height: 1.5;
+  }
+}
+
+.page__content {
+  .pub__title {
+    margin: 0 0 0.3em;
+    color: $darker-gray;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  .pub__authors {
+    margin: 0 0 0.55em;
+    color: $gray;
+    font-size: 0.875em;
+    line-height: 1.5;
+  }
+
+  .pub__links a {
+    text-decoration: none;
+  }
+}
+
+.pub__me {
+  color: $dark-gray;
+  font-weight: bold;
+}
+
+.pub__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.pub__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.2em 0.75em;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  background: $code-background-color;
+  color: $dark-gray;
+  font-size: $type-size-6;
+  line-height: 1.5;
+
+  &:hover {
+    border-color: $pub-accent;
+    background: mix(#fff, $pub-accent, 90%);
+    color: mix(#000, $pub-accent, 40%);
+  }
+}

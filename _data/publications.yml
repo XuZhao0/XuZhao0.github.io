@@ -1,0 +1,37 @@
+# Selected publications shown on the homepage (rendered by _includes/publications.html).
+#
+# image (optional): a teaser figure, e.g. images/publications/fineverify.png (16:9 works best).
+#                   With one, the venue badge moves into the link row; without, it takes the image's place.
+# links: name picks the icon (Paper, Code, Project, Slides, Poster, Video, Data); add `icon:` to override.
+
+- title: "FineVerify: Scaling Test-Time Compute with Fine-Grained Self-Verification for Agentic Search"
+  authors: "James Xu Zhao, Hui Chen, Bryan Hooi, See-Kiong Ng"
+  venue: "EMNLP 2026"
+  image: images/publications/fineverify_overview.png
+  links:
+    - { name: Paper, url: "https://arxiv.org/pdf/2606.00660" }
+    - { name: Code, url: "https://github.com/XuZhao0/fineverify" }
+
+- title: "Test-Time Scaling in Reasoning Models Is Not Effective for Knowledge-Intensive Tasks Yet"
+  authors: "James Xu Zhao, Bryan Hooi, See-Kiong Ng"
+  venue: "COLM 2026"
+  image: images/publications/tts-knowledge.png
+  links:
+    - { name: Paper, url: "https://arxiv.org/pdf/2509.06861" }
+    - { name: Code, url: "https://github.com/XuZhao0/tts-knowledge" }
+
+- title: "How Does Response Length Affect Long-Form Factuality"
+  authors: "James Xu Zhao, Jimmy Z.J. Liu, Bryan Hooi, See-Kiong Ng"
+  venue: "ACL 2025 Findings"
+  image: images/publications/factual_degradation.png
+  links:
+    - { name: Paper, url: "https://arxiv.org/pdf/2505.23295" }
+    - { name: Code, url: "https://github.com/XuZhao0/length-bias-factuality" }
+
+- title: "Automatic Model Selection with Large Language Models for Reasoning"
+  authors: "James Xu Zhao, Yuxi Xie, Kenji Kawaguchi, Junxian He, Qizhe Xie"
+  venue: "EMNLP 2023 Findings"
+  image: images/publications/selection-model.png
+  links:
+    - { name: Paper, url: "https://aclanthology.org/2023.findings-emnlp.55.pdf" }
+    - { name: Code, url: "https://github.com/XuZhao0/Model-Selection-Reasoning" }
